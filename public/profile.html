@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Личный кабинет</h1>
+            <div class="controls">
+                <button id="toggle-theme">Сменить тему</button>
+                <button id="logout-btn">Выйти</button>
+            </div>
+        </header>
+        
+        <div class="profile-content">
+            <h2>Добро пожаловать, <span id="username-display"></span>!</h2>
+            <div class="data-section">
+                <button id="refresh-data">Обновить данные</button>
+                <div id="data-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js" type="application/javascript"></script>
+</body>
+</html>
